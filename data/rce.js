@@ -106,6 +106,36 @@ window.resources = [
     thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Communist-manifesto.png/250px-Communist-manifesto.png",
     tags: ["valeur", "exploitation", "capitalisme", "communisme", "héritage"]
   },
+
+{
+    id: "politikon_manifeste_marx",
+    type: "Vidéo",
+    title: "Marx, Engels - Manifeste du parti communiste",
+    creator: "Politikon",
+    theme: "Critique & capitalisme",
+    course: "RCE",
+    session: "Séance 5 — Marx & Bourdieu",
+    url: "https://www.youtube.com/watch?v=xiJx1g91LYk",
+    thumbnail: "https://i.ytimg.com/vi/xiJx1g91LYk/hqdefault.jpg",
+    tags: ["valeur", "exploitation", "capitalisme", "communisme", "héritage"]
+  },
+
+{
+    id: "thennow_long_video_marx",
+    type: "Vidéo",
+    title: "Marx: A Complete Guide to Capitalism",
+    creator: "Then & Now",
+    theme: "Critique & capitalisme",
+    course: "RCE",
+    session: "Séance 5 — Marx & Bourdieu",
+    url: "https://www.youtube.com/watch?v=0bmX0hZoiJM",
+    thumbnail: "https://i.ytimg.com/vi/0bmX0hZoiJM/hqdefault.jpg",
+    tags: ["valeur", "exploitation", "capitalisme", "communisme", "héritage"],
+    note: "Un très très long vidéo qui va dans énormé,ent de détails sur Marx"
+},
+
+
+
   {
     id: "bourdieu-distinction-1994",
     type: "Livre",
@@ -129,10 +159,40 @@ window.resources = [
     session: "Séance 5 — Marx & Bourdieu",
     url: "https://www.youtube.com/watch?v=FPw7KKl1TuA",
     thumbnail: "https://i.ytimg.com/vi/FPw7KKl1TuA/hqdefault.jpg",
-    tags: ["capital culturel", "goût", "stratification"],
+    tags: ["capitalisme"],
     note: "Un vidéo intéressant sur l'héritage de Marx et une bonne entreuve avec Branko Milanović, un économiste de renom."
   },
 
+
+
+  {
+    id: "video_stupid_economics_supression_heritage",
+    type: "Livre",
+    title: "Supprimer l'Héritage ?",
+    creator: "Stupid Economics",
+    theme: "Économie & Capitalisme",
+    course: "RCE",
+    session: "Séance 5 — Marx & Bourdieu",
+    url: "https://www.youtube.com/watch?v=UzYpncXclYo",
+    thumbnail: "https://i.ytimg.com/vi/UzYpncXclYo/hqdefault.jpg",
+    tags: ["héritage", "inégalités", "stratification"],
+    note: "Un vidéo intéressant sur l'importante question de l'héritage."
+  },
+
+
+{
+  id: "jeu_john_company_wehrle_2e",
+  type: "Jeu",
+  title: "John Company: Second Edition",
+  creator: "Cole Wehrle",
+  theme: "Économie politique & impérialisme",
+  course: "RCE",
+  session: "Séance 5 — Marx & Bourdieu",
+  url: "https://wehrlegig.com/products/john-company-second-edition",
+  thumbnail: "https://wehrlegig.com/cdn/shop/files/JohnCompanyBoxTransparent.png?v=1742496617&width=1500",
+  tags: ["East India Company", "négociation", "bureaucratie", "rente", "pouvoir"],
+  note: "Jeu de négociation et de gestion d’institutions autour de la Compagnie des Indes orientales. Utile pour discuter, avec Marx, des intérêts de classe et de la logique de l’accumulation, et avec Bourdieu, des formes de capital, de la reproduction et de la capture de l’État par des élites."
+},
 
 
   /* Séance 6 — Coase & Hayek */
