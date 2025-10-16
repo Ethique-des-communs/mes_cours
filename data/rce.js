@@ -135,7 +135,6 @@ window.resources = [
 },
 
 
-
   {
     id: "bourdieu-distinction-1994",
     type: "Livre",
