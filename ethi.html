@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ETHI — Éthique, gouvernance et droit des affaires</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E📚%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<div class="wrap">
+<header>
+<div>
+<h1 id="page-title">ETHI — Éthique, gouvernance et droit des affaires</h1>
+<div class="muted">Ressources vidéos & lectures</div>
+</div>
+<div class="controls">
+<input id="q" type="search" placeholder="Rechercher (titre, auteur, thème, tags)" />
+<select id="groupBy"><option value="session">Grouper par séance</option><option value="theme">Grouper par thème</option><option value="course">Grouper par cours</option><option value="none">Sans regroupement</option></select>
+<select id="typeFilter"><option value="all">Tous les types</option><option>video</option><option>article</option><option>book</option></select>
+</div>
+</header>
+<main id="app"></main>
+<footer class="muted" style="margin-top:24px">© <span id="year"></span> — CC BY‑NC‑SA</footer>
+</div>
+<script>window.courseMeta = { code: 'ETHI', title: 'Éthique, gouvernance et droit des affaires' };</script>
+<script src="./data/ethi.js"></script>
+<script src="./assets/script.js"></script>
+<script>window._course_init();</script>
+</body>
+</html>

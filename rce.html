@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>RCE : Regards croisés sur l’entreprise</title>
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<div class="wrap">
+<header>
+<div>
+<h1 id="page-title">RCE — Regards croisés sur l’entreprise</h1>
+<div class="muted">Ressources vidéos & lectures</div>
+</div>
+<div class="controls">
+<input id="q" type="search" placeholder="Rechercher (titre, auteur, thème, tags)" />
+<select id="groupBy">
+<option value="session">Grouper par séance</option>
+<option value="theme">Grouper par thème</option>
+<option value="course">Grouper par cours</option>
+<option value="none">Sans regroupement</option>
+</select>
+<select id="typeFilter"><option value="all">Tous les types</option><option>video</option><option>article</option><option>book</option></select>
+</div>
+</header>
+<main id="app"></main>
+<footer class="muted" style="margin-top:24px">© <span id="year"></span> — CC BY‑NC‑SA</footer>
+</div>
+
+<script>window.courseMeta = { code: 'RCE', title: 'Regards croisés sur l’entreprise' };</script>
+<script src="./data/rce.js"></script>
+<script src="./assets/script.js"></script>
+<script>window._course_init();</script>
+</body>
+</html>
