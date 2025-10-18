@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cas — Détails</title>
+  <link rel="stylesheet" href="./assets/style.css">
+  <style>
+  /* Réduit l’emprise de l’image et élargit le texte */
+  .case-layout {
+    display: grid;
+    grid-template-columns: minmax(140px, 240px) 1fr;
+    gap: 16px;
+    align-items: start;
+  }
+  @media (max-width: 720px){
+    .case-layout { grid-template-columns: 1fr; }
+  }
+  .thumb.thumb--small {
+    width: 100%;
+    aspect-ratio: 4 / 3;   /* plus compact que 16/9 */
+    object-fit: contain;
+    background: var(--bg);
+    max-height: 180px;      /* limite la hauteur visible */
+  }
+  .section {
+    margin-top: 16px;
+  }
+  .kv { margin: 0; padding: 0; list-style: none; font-size: .95rem; }
+  .kv li { margin: 2px 0; }
+  .actors { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 8px; }
+  .actors .card { padding: 8px 12px; }
+  .actors .title { font-size: 1rem; margin: 0 0 2px; }
+  .actors .meta { font-size: .9rem; opacity: .85; }
+</style>
+
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1 id="case-title">Cas</h1>
+      <a class="btn" href="./ethi.html">← Retour</a>
+    </header>
+    <div id="case-container"></div>
+  </div>
+
+<script src="./data/cases.js"></script>
+<script src="./assets/script.js"></script>
+<script>window._case_init();</script>
+
+
+
+
+</body>
+</html>

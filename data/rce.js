@@ -1,8 +1,15 @@
 window.resources = [
   /* Séance 1 — Introduction générale */
   
+{
+  id: "cas_ethique_trois_enfants",
+  type: "cas",
+  course: "RCE",
+  session: "Séance 1 — Introduction générale",
+},
 
-  /* Séance 2 — Institutions & développement (North + Landes/McCloskey) */
+
+  /* Séance 2 — Séance 2 — North & Landes */
   {
     id: "north-institutions-1990",
     type: "Livre",
@@ -40,7 +47,7 @@ window.resources = [
     tags: ["idées", "croissance", "culture"]
   },
 
-  /* Séance 3 — Marché encastré & réseaux  */
+  /* Séance 3 — Séance 3 — Polanyi & Graeber  */
   {
     id: "polanyi-great-transformation-1944",
     type: "Livre",
@@ -78,7 +85,24 @@ window.resources = [
     tags: ["réseaux", "encastrement", "sociologie économique"]
   },
 
-  /* Séance 4 — Adam Smith & Fleischacker / Vernon L. Smith */
+{
+  id: "video_cdf_graeber_utilite_inutilite_2018",
+  type: "Vidéo",
+  title: "Utilité et inutilité du travail (The Revolt of the Caring Classes)",
+  creator: "David Graeber — Collège de France (Fondation Hugot)",
+  theme: "Travail, Bureaucratie & Capitalisme",
+  course: "RCE",
+  session: "Séance 3 — Polanyi & Graeber",
+  url: "https://www.college-de-france.fr/en/news/david-graeber-major-lecture",
+  thumbnail: "https://www.college-de-france.fr/sites/default/files/styles/3_2_cke_560/public/media/image/2022-07/David_Graeber.jpg?h=10d202d3&itok=e0yueSMg",
+  tags: ["travail", "bullshit jobs", "bureaucratie", "inégalités", "valeur"],
+  note: "Grande conférence de David Graeber au Collège de France (2018), avec traduction simultanée : plaidoyer sur l’utilité sociale des métiers vs. la survalorisation bureaucratique."
+},
+
+
+
+
+  /* Séance 4 — Adam Smith & Fleischacker */
   {
     id: "adam-smith-wealth-of-nations",
     type: "Livre",
@@ -86,7 +110,7 @@ window.resources = [
     creator: "Adam Smith",
     theme: "Classiques",
     course: "RCE",
-    session: "Séance 4 — Adam Smith & Fleischacker/Vernon Smith",
+    session: "Séance 4 — Adam Smith & Fleischacker",
     url: "https://openlibrary.org/isbn/9780140432084",
     thumbnail: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Wealth_of_Nations.jpg",
     tags: ["marché", "division du travail"]
@@ -162,7 +186,19 @@ window.resources = [
     note: "Un vidéo intéressant sur l'héritage de Marx et une bonne entreuve avec Branko Milanović, un économiste de renom."
   },
 
-
+  {
+    id: "phi-deux-notions-heritage",
+    type: "Vidéo",
+    title: "Deux notions de JUSTICE (et pourquoi aucune ne justifie l'héritage)",
+    creator: "Monsieur Phi",
+    theme: "Inégalités & pouvoir",
+    course: "RCE",
+    session: "Séance 5 — Marx & Bourdieu",
+    url: "https://www.youtube.com/watch?v=Aj7PKDTrbjQ",
+    thumbnail: "https://i.ytimg.com/vi/Aj7PKDTrbjQ/hqdefault.jpg",
+    tags: ["justice", "transmission"],
+    note: "Un détour par l’héritage pour interroger équité et méritocratie."
+  },
 
   {
     id: "video_stupid_economics_supression_heritage",
@@ -233,10 +269,35 @@ window.resources = [
     tags: ["ordre spontané", "planification", "information", "dirigisme"]
   },
 
+{
+  id: "video_econstories_fear_the_boom_and_bust",
+  type: "Vidéo",
+  title: "Fear the Boom and Bust: Keynes vs. Hayek — The Original Economics Rap Battle",
+  creator: "EconStories / Radical Discourse",
+  theme: "Économie & Capitalisme",
+  course: "RCE",
+  session: "Séance 6 — Coase & Hayek",
+  url: "https://www.youtube.com/watch?v=d0nERTFo-Sk",
+  thumbnail: "https://i.ytimg.com/vi/d0nERTFo-Sk/hqdefault.jpg",
+  tags: ["Keynes", "Hayek", "rap battle", "cycle conjoncturel", "macroéconomie", "interventionétatique"],
+  note: "Un classique du rap économique qui met en scène Keynes et Hayek débattant du cycle économique et de l’intervention de l’État." 
+},
+{
+  id: "video_econstories_fight_of_the_century_round2",
+  type: "Vidéo",
+  title: "Fight of the Century: Keynes vs. Hayek — Economics Rap Battle Round Two",
+  creator: "EconStories / Radical Discourse",
+  theme: "Économie & Capitalisme",
+  course: "RCE",
+  session: "Séance 6 — Coase & Hayek",
+  url: "https://www.youtube.com/watch?v=GTQnarzmTOc",
+  thumbnail: "https://i.ytimg.com/vi/GTQnarzmTOc/hqdefault.jpg",
+  tags: ["Keynes", "Hayek", "rap battle", "relance économique", "grande récession", "intervention étatique"],
+  note: "La suite du rap économique, centrée sur les réponses de Keynes et Hayek face à la Grande Récession." 
+},
 
 
-
-  /* Séance 7 — Weber & Foucault (+ Graeber pour la bureaucratie) */
+  /* Séance 7 — Weber & Foucault  */
   {
     id: "weber-economy-and-society",
     type: "Livre",
@@ -274,7 +335,7 @@ window.resources = [
     tags: ["bureaucratie", "créativité", "routines"]
   },
 
-  /* Séance 8 — Mancur Olson & Albert O. Hirschman */
+  /* Séance 8 — Mancur Olson & Hirschman */
   {
     id: "olson-logic-of-collective-action-1965",
     type: "Livre",
@@ -311,7 +372,24 @@ window.resources = [
     tags: ["coopération", "théorie des jeux"]
   },
 
-  /* Séance 9 — Durkheim & Nien-hê Hsieh */
+{
+  id: "livre_bagg_dispersion_of_power_2024",
+  type: "Livre",
+  title: "The Dispersion of Power: A Critical Realist Theory of Democracy",
+  creator: "Samuel Ely Bagg",
+  theme: "Démocratie, Pouvoir & Néorépublicanisme",
+  course: "RCE",
+  session: "Séance 8 — Olson & Hirschman",
+  url: "https://global.oup.com/academic/product/the-dispersion-of-power-9780192848826",
+  thumbnail: "https://books.google.com/books/content?id=uOjnEAAAQBAJ&printsec=frontcover&img=1&zoom=1",
+  tags: ["démocratie", "pouvoir", "capture de l’État", "contre-pouvoirs", "public choice (critique)", "réalisme critique", "Machiavel"],
+  note: "Excellent ouvrage qui propose une théorie machiavélienne et réaliste de la démocratie : au-delà des réformes procédurales, il insiste sur la dispersion du pouvoir et l’organisation de contre-pouvoirs pour résister à la capture par les élites."
+},
+
+
+
+
+  /* Séance 9 — Durkheim & Hsieh */
   {
     id: "durkheim-division-travail-1893",
     type: "Livre",
@@ -319,7 +397,7 @@ window.resources = [
     creator: "Émile Durkheim",
     theme: "Solidarité & société",
     course: "RCE",
-    session: "Séance 9 — Durkheim & Nien-hê Hsieh",
+    session: "Séance 9 — Durkheim & Hsieh",
     url: "https://fr.wikipedia.org/wiki/De_la_division_du_travail_social",
     thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Emile_Durkheim%2C_Division_du_travail_social_maitrier.jpg/250px-Emile_Durkheim%2C_Division_du_travail_social_maitrier.jpg",
     tags: ["solidarité organique", "normes"]
@@ -341,7 +419,7 @@ window.resources = [
   },
 {
   id: "sur_le_champ_video_machiavel",
-  type: "vidéo",
+  type: "Vidéo",
   title: "Machiavel, le Conscrit et le Riche",   
   creator: "Chaîne YouTube Sur le champ",
   theme: "Républicanisme",

@@ -2,7 +2,7 @@ window.resources = [
   /* Séance 1 — Introduction générale */
   {
     id: "phi-utilite-philo",
-    type: "video",
+    type: "Vidéo",
     title: "La philosophie morale ne sert à rien ? (ft. Valentine de Science de Comptoir)",
     creator: "Monsieur Phi",
     theme: "Introduction",
@@ -15,7 +15,7 @@ window.resources = [
   },
   {
     id: "phi-notation-hasard",
-    type: "video",
+    type: "Vidéo",
     title: "Les profs de philo notent-ils n'importe comment ? Une expérience sur un lot de copies-tests",
     creator: "Monsieur Phi",
     theme: "Introduction",
@@ -28,7 +28,7 @@ window.resources = [
   },
   {
     id: "phi-good-place",
-    type: "video",
+    type: "Vidéo",
     title: "La philosophie morale dans The Good Place (sans spoiler)",
     creator: "Monsieur Phi",
     theme: "Introduction",
@@ -43,7 +43,7 @@ window.resources = [
   /* Séance 2 — Bien juger, décider et agir (théories morales) */
   {
     id: "phi-bugatti-singer",
-    type: "video",
+    type: "Vidéo",
     title: "L'argument de la Bugatti | Peter Singer et l'altruisme efficace",
     creator: "Monsieur Phi",
     theme: "Utilitarisme",
@@ -56,7 +56,7 @@ window.resources = [
   },
   {
     id: "phi-foot-utilitarisme",
-    type: "video",
+    type: "Vidéo",
     title: "Qui DOIT gagner la coupe du monde ? FOOTBALL & UTILITARISME",
     creator: "Monsieur Phi",
     theme: "Utilitarisme",
@@ -69,7 +69,7 @@ window.resources = [
   },
   {
     id: "phi-jusqua-ou-utilitariste",
-    type: "video",
+    type: "Vidéo",
     title: "Jusqu'où serez-vous utilitariste ? (Ft. Science4All)",
     creator: "Monsieur Phi",
     theme: "Utilitarisme",
@@ -82,7 +82,7 @@ window.resources = [
   },
   {
     id: "phi-omelas",
-    type: "video",
+    type: "Vidéo",
     title: "Ceux qui partent d'Omelas | Ursula K. Le Guin",
     creator: "Monsieur Phi",
     theme: "Utilitarisme",
@@ -95,7 +95,7 @@ window.resources = [
   },
   {
     id: "philoxime-utilitarisme-intro",
-    type: "video",
+    type: "Vidéo",
     title: "L'utilitarisme, c'est quoi ? (TJ #1)",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Utilitarisme",
@@ -108,7 +108,7 @@ window.resources = [
   },
   {
     id: "phi-kant-imperatif",
-    type: "video",
+    type: "Vidéo",
     title: "TU DOIS ! — l'impératif catégorique selon Kant | Grain de philo #31",
     creator: "Monsieur Phi",
     theme: "Déontologisme",
@@ -121,7 +121,7 @@ window.resources = [
   },
   {
     id: "phi-kant-masturbation",
-    type: "video",
+    type: "Vidéo",
     title: "La masturbation selon Kant - Grain de philo #29",
     creator: "Monsieur Phi",
     theme: "Déontologisme",
@@ -134,48 +134,10 @@ window.resources = [
   },
 
   /* Séance 3 — Éthique et droit (PI, bioéthique) */
-  {
-    id: "philoxime-pi-1",
-    type: "video",
-    title: "Pourquoi la propriété intellectuelle ? Locke et le droit naturel (PI #1)",
-    creator: "Philoxime / Maxime Lambrecht",
-    theme: "Propriété intellectuelle",
-    course: "ETHI",
-    session: "Séance 3 — Éthique et droit",
-    url: "https://www.youtube.com/watch?v=SVAAEIDyMhI",
-    thumbnail: "https://i.ytimg.com/vi/SVAAEIDyMhI/hqdefault.jpg",
-    tags: ["PI", "Locke"],
-    note: "Fondements normatifs : pourquoi protéger l’information ?"
-  },
-  {
-    id: "philoxime-pi-2-1",
-    type: "video",
-    title: "La propriété intellectuelle, un incitant à la création ? - PI #2.1",
-    creator: "Philoxime / Maxime Lambrecht",
-    theme: "Propriété intellectuelle",
-    course: "ETHI",
-    session: "Séance 3 — Éthique et droit",
-    url: "https://www.youtube.com/watch?v=qp5HPksrhNE",
-    thumbnail: "https://i.ytimg.com/vi/qp5HPksrhNE/hqdefault.jpg",
-    tags: ["incitations", "innovation"],
-    note: "Arguments économiques et moraux pro-PI."
-  },
-  {
-    id: "philoxime-pi-2-2",
-    type: "video",
-    title: "Abolir la propriété intellectuelle ? (PI #2.2)",
-    creator: "Philoxime / Maxime Lambrecht",
-    theme: "Propriété intellectuelle",
-    course: "ETHI",
-    session: "Séance 3 — Éthique et droit",
-    url: "https://www.youtube.com/watch?v=x3rptRn6GeA&t",
-    thumbnail: "https://i.ytimg.com/vi/x3rptRn6GeA/hqdefault.jpg",
-    tags: ["PI", "critique"],
-    note: "Contre-arguments : accès, justice, communs de la connaissance."
-  },
+  
   {
     id: "phi-avortement-democratie",
-    type: "video",
+    type: "Vidéo",
     title: "Peut-on démocratiquement priver les femmes de la liberté d'avorter ?",
     creator: "Monsieur Phi",
     theme: "Bioéthique & droit",
@@ -188,7 +150,7 @@ window.resources = [
   },
   {
     id: "phi-jarvis-thomson",
-    type: "video",
+    type: "Vidéo",
     title: "Comment Judith Jarvis Thomson a défendu l'avortement : l'argument du violoniste et des people-seeds",
     creator: "Monsieur Phi",
     theme: "Bioéthique & droit",
@@ -203,7 +165,7 @@ window.resources = [
   /* Séance 4 — La gouvernance des organisations (justice, pouvoir, capture) */
   {
     id: "philoxime-egalite-chances",
-    type: "video",
+    type: "Vidéo",
     title: "L'égalité des chances, une idée radicale ? - Égalitarisme de la chance (TJ #5)",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Justice & gouvernance",
@@ -216,7 +178,7 @@ window.resources = [
   },
   {
     id: "philoxime-cohen",
-    type: "video",
+    type: "Vidéo",
     title: "Le socialisme utopique n'est pas mort: G. A. Cohen",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Justice & gouvernance",
@@ -229,7 +191,7 @@ window.resources = [
   },
   {
     id: "philoxime-marxisme",
-    type: "video",
+    type: "Vidéo",
     title: "Le Marxisme comme théorie de la justice ? (TJ #3)",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Justice & gouvernance",
@@ -242,7 +204,7 @@ window.resources = [
   },
   {
     id: "philoxime-rawls",
-    type: "video",
+    type: "Vidéo",
     title: "Le libéralisme égalitaire de John Rawls (TJ #4.1)",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Justice & gouvernance",
@@ -255,7 +217,7 @@ window.resources = [
   },
   {
     id: "philoxime-libertarisme",
-    type: "video",
+    type: "Vidéo",
     title: "Le Libertarisme, c'est quoi ? (TJ #2)",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Justice & gouvernance",
@@ -283,7 +245,7 @@ window.resources = [
   /* Séance 5 — Gestion et exploitation des données massives et IA */
   {
     id: "phi-robotique-sociale",
-    type: "video",
+    type: "Vidéo",
     title: "Sommes-nous prêts à vivre parmi des robots ?",
     creator: "Monsieur Phi",
     theme: "Technologie & IA",
@@ -298,7 +260,7 @@ window.resources = [
   /* Séance 6 — Finance responsable (climat & responsabilité) */
   {
     id: "philoxime-partage-efforts",
-    type: "video",
+    type: "Vidéo",
     title: "Le partage des efforts pour le climat - Justice climatique",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Climat & finance durable",
@@ -311,7 +273,7 @@ window.resources = [
   },
   {
     id: "philoxime-pertes-prejudices",
-    type: "video",
+    type: "Vidéo",
     title: "Climat : les pertes & préjudices, c'est quoi ?",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Climat & finance durable",
@@ -324,7 +286,7 @@ window.resources = [
   },
   {
     id: "philoxime-responsabilite-climat",
-    type: "video",
+    type: "Vidéo",
     title: "Climat: qui est VRAIMENT responsable ? (Climat #5)",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Climat & finance durable",
@@ -339,7 +301,7 @@ window.resources = [
   /* Séance 7 — Fraude et corruption dans les organisations */
   {
     id: "phi-dilemme-prisonnier",
-    type: "video",
+    type: "Vidéo",
     title: "Le dilemme du prisonnier et le paradoxe de la coopération",
     creator: "Monsieur Phi",
     theme: "Action collective & incitations",
@@ -354,7 +316,7 @@ window.resources = [
   /* Séance 8 — Éthique en contexte international (climat & politiques) */
   {
     id: "philoxime-compensation-petroliers",
-    type: "video",
+    type: "Vidéo",
     title: "Climato-réalisme : compenser les pétroliers ?",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Éthique internationale",
@@ -367,7 +329,7 @@ window.resources = [
   },
   {
     id: "philoxime-dont-lookup",
-    type: "video",
+    type: "Vidéo",
     title: "Don't Look Up — Et si tout était vrai ?",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Éthique internationale",
@@ -380,7 +342,7 @@ window.resources = [
   },
   {
     id: "philoxime-libertariens-ecologistes",
-    type: "video",
+    type: "Vidéo",
     title: "Des libertariens écologistes, ça existe ?",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Éthique internationale",
@@ -393,7 +355,7 @@ window.resources = [
   },
   {
     id: "philoxime-eco-gestes",
-    type: "video",
+    type: "Vidéo",
     title: "Les éco-gestes sont-ils futiles? (Climat #4)",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Éthique internationale",
@@ -406,7 +368,7 @@ window.resources = [
   },
   {
     id: "philoxime-convention-citoyenne",
-    type: "video",
+    type: "Vidéo",
     title: "Convention citoyenne pour le climat : quelle légitimité ? (ft. Le Réveilleur) (Climat #3)",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Éthique internationale",
@@ -419,7 +381,7 @@ window.resources = [
   },
   {
     id: "philoxime-voiture-electrique",
-    type: "video",
+    type: "Vidéo",
     title: "L'éthique de la voiture électrique",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Éthique internationale",
@@ -432,7 +394,7 @@ window.resources = [
   },
   {
     id: "philoxime-neutralite-carbone",
-    type: "video",
+    type: "Vidéo",
     title: "Neutralité carbone : Guide de survie (Climat #6)",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Éthique internationale",
@@ -445,7 +407,7 @@ window.resources = [
   },
   {
     id: "phi-rouler-suv",
-    type: "video",
+    type: "Vidéo",
     title: "Rouler en SUV, c'est mal? (Climat #2)",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Éthique internationale",
@@ -460,7 +422,7 @@ window.resources = [
   /* Séance 9 — Diversité dans les organisations */
   {
     id: "philoxime-milliardaires-heritage",
-    type: "video",
+    type: "Vidéo",
     title: "Les milliardaires, compatibles avec la démocratie? (ft. @Osonscauser)",
     creator: "Philoxime / Maxime Lambrecht",
     theme: "Inégalités & pouvoir",
@@ -473,7 +435,7 @@ window.resources = [
   },
   {
     id: "phi-deux-notions-heritage",
-    type: "video",
+    type: "Vidéo",
     title: "Deux notions de JUSTICE (et pourquoi aucune ne justifie l'héritage)",
     creator: "Monsieur Phi",
     theme: "Inégalités & pouvoir",
@@ -486,7 +448,7 @@ window.resources = [
   },
   {
     id: "stupideco-supprimer-heritage",
-    type: "video",
+    type: "Vidéo",
     title: "Supprimer l'Héritage ?",
     creator: "Stupid Economics",
     theme: "Inégalités & pouvoir",
@@ -499,7 +461,7 @@ window.resources = [
   },
   {
     id: "usul-heritage",
-    type: "video",
+    type: "Vidéo",
     title: "Usul. Successions : faut-il déshériter les héritiers ?",
     creator: "Usul / Mediapart",
     theme: "Inégalités & pouvoir",
@@ -512,7 +474,7 @@ window.resources = [
   },
   {
     id: "blast-heritage",
-    type: "video",
+    type: "Vidéo",
     title: "Faut-il en finir avec l'héritage",
     creator: "Blast",
     theme: "Inégalités & pouvoir",
@@ -526,7 +488,70 @@ window.resources = [
 
   /* Séance 10 — Enjeux éthiques et juridiques liés à l'innovation */
   // (à compléter si tu veux des ressources spécifiques innovation/PI/IA distinctes)
+{
+    id: "philoxime-pi-1",
+    type: "Vidéo",
+    title: "Pourquoi la propriété intellectuelle ? Locke et le droit naturel (PI #1)",
+    creator: "Philoxime / Maxime Lambrecht",
+    theme: "Propriété intellectuelle",
+    course: "ETHI",
+    session: "Séance 10 — Enjeux éthiques et juridiques liés à l'innovation",
+    url: "https://www.youtube.com/watch?v=SVAAEIDyMhI",
+    thumbnail: "https://i.ytimg.com/vi/SVAAEIDyMhI/hqdefault.jpg",
+    tags: ["PI", "Locke"],
+    note: "Fondements normatifs : pourquoi protéger l’information ?"
+  },
+  {
+    id: "philoxime-pi-2-1",
+    type: "Vidéo",
+    title: "La propriété intellectuelle, un incitant à la création ? - PI #2.1",
+    creator: "Philoxime / Maxime Lambrecht",
+    theme: "Propriété intellectuelle",
+    course: "ETHI",
+    session: "Séance 10 — Enjeux éthiques et juridiques liés à l'innovation",
+    url: "https://www.youtube.com/watch?v=qp5HPksrhNE",
+    thumbnail: "https://i.ytimg.com/vi/qp5HPksrhNE/hqdefault.jpg",
+    tags: ["incitations", "innovation"],
+    note: "Arguments économiques et moraux pro-PI."
+  },
+  {
+    id: "philoxime-pi-2-2",
+    type: "Vidéo",
+    title: "Abolir la propriété intellectuelle ? (PI #2.2)",
+    creator: "Philoxime / Maxime Lambrecht",
+    theme: "Propriété intellectuelle",
+    course: "ETHI",
+    session: "Séance 10 — Enjeux éthiques et juridiques liés à l'innovation",
+    url: "https://www.youtube.com/watch?v=x3rptRn6GeA&t",
+    thumbnail: "https://i.ytimg.com/vi/x3rptRn6GeA/hqdefault.jpg",
+    tags: ["PI", "critique"],
+    note: "Contre-arguments : accès, justice, communs de la connaissance."
+  },
 
+{
+  id: "cas_ethique_lysandre",
+  type: "cas",
+  course: "ETHI",
+  session: "Séance 7 — Fraude et corruption dans les organisations",
+},
+
+{
+  id: "cas_ethique_inara",
+  type: "cas",
+  course: "ETHI",
+  session: "Séance 1 — Introduction générale",
+},
+
+{
+  id: "cas_ethique_trois_enfants",
+  type: "cas",
+  course: "ETHI",
+  session: "Séance 1 — Introduction générale",
+},
+
+
+
+  
   /* Séance 11 — Intuition, émotions et prise de décision éthique */
   // (tu peux y replacer des vidéos de la Séance 2 si tu veux centrer sur heuristiques et biais)
 ];
