@@ -68,21 +68,9 @@ window.resources = [
     theme: "Anthropologie & institutions",
     course: "RCE",
     session: "Séance 3 — Polanyi & Graeber",
-    url: "https://openlibrary.org/isbn/9780374157357",
-    thumbnail: "https://covers.openlibrary.org/b/isbn/9780374157357-L.jpg",
+    url: "https://en.wikipedia.org/wiki/The_Dawn_of_Everything",
+    thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/The_Dawn_of_Everything.jpg/250px-The_Dawn_of_Everything.jpg",
     tags: ["anthropologie", "origines", "pluralité sociale"]
-  },
-  {
-    id: "granovetter-society-and-economy-2017",
-    type: "Livre",
-    title: "Society and Economy: Framework and Principles",
-    creator: "Mark Granovetter",
-    theme: "Réseaux & économie",
-    course: "RCE",
-    session: "Séance 3 — Polanyi & Graeber",
-    url: "https://openlibrary.org/isbn/9780674975217",
-    thumbnail: "https://covers.openlibrary.org/b/isbn/9780674975217-L.jpg",
-    tags: ["réseaux", "encastrement", "sociologie économique"]
   },
 
 {
@@ -111,8 +99,8 @@ window.resources = [
     theme: "Classiques",
     course: "RCE",
     session: "Séance 4 — Adam Smith & Fleischacker",
-    url: "https://openlibrary.org/isbn/9780140432084",
-    thumbnail: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Wealth_of_Nations.jpg",
+    url: "https://en.wikipedia.org/wiki/The_Wealth_of_Nations",
+    thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Wealth_of_Nations.jpg/250px-Wealth_of_Nations.jpg",
     tags: ["marché", "division du travail"]
   },
 
@@ -330,7 +318,7 @@ window.resources = [
     theme: "Bureaucratie & modernité",
     course: "RCE",
     session: "Séance 7 — Weber & Foucault",
-    url: "https://openlibrary.org/isbn/9781612193748",
+    url: "https://en.wikipedia.org/wiki/The_Utopia_of_Rules",
     thumbnail: "https://covers.openlibrary.org/b/isbn/9781612193748-L.jpg",
     tags: ["bureaucratie", "créativité", "routines"]
   },
@@ -344,7 +332,7 @@ window.resources = [
     theme: "Action collective",
     course: "RCE",
     session: "Séance 8 — Olson & Hirschman",
-    url: "https://openlibrary.org/isbn/9780674537514",
+    url: "https://en.wikipedia.org/wiki/The_Logic_of_Collective_Action",
     thumbnail: "https://covers.openlibrary.org/b/isbn/9780674537514-L.jpg",
     tags: ["free rider", "biens publics"]
   },
@@ -356,9 +344,10 @@ window.resources = [
     theme: "Réactions aux défaillances",
     course: "RCE",
     session: "Séance 8 — Olson & Hirschman",
-    url: "https://openlibrary.org/isbn/9780674276604",
-    thumbnail: "https://covers.openlibrary.org/b/isbn/9780674276604-L.jpg",
-    tags: ["voix", "sortie", "fidélité"]
+    url: "https://en.wikipedia.org/wiki/Exit,_Voice,_and_Loyalty",
+    thumbnail: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Exit%2C_Voice%2C_and_Loyalty_book_cover.jpg/250px-Exit%2C_Voice%2C_and_Loyalty_book_cover.jpg",
+    tags: ["voix", "sortie", "fidélité"],
+    note: "Un livre important qui fait un pont entre la perspective économique et social de la personne qui cherche à se faire entendre."
   },
   {
     id: "phi-dilemme-prisonnier",
