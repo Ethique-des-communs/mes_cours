@@ -406,6 +406,21 @@ window.resources = [
     tags: ["bureaucratie", "créativité", "routines"]
   },
 
+{
+  id: "article_singer_political_nature_firm_cost_of_norms_2018",
+  type: "Article",
+  title: "The Political Nature of the Firm and the Cost of Norms",
+  creator: "Abraham A. Singer",
+  theme: "Entreprise, Normes sociales & Gouvernementalité",
+  course: "RCE",
+  session: "Séance 7 — Weber & Foucault",
+  url: "https://www.journals.uchicago.edu/doi/10.1086/697122",
+  thumbnail: "https://tse1.mm.bing.net/th/id/OIP.Ynm2rlMwIIzHwODlL2kJrwHaLQ?pid=Api",
+  tags: ["théorie de la firme", "Coase", "coûts de transaction", "normes sociales", "autorité", "Weber", "Foucault"],
+  note: "Article (Journal of Politics, 80:3, 2018) qui prolonge Coase : la firme repose sur des normes sociales (coûts et contraintes) et exerce une autorité politique analogue à celle de l’État—pont utile vers Weber (domination/autorité) et Foucault (gouvernementalité)."
+},
+
+
   /* Séance 8 — Mancur Olson & Hirschman */
   {
     id: "olson-logic-of-collective-action-1965",
@@ -653,7 +668,7 @@ window.resources = [
   url: "https://philarchive.org/rec/DANIDO-8",
   thumbnail: "https://m.media-amazon.com/images/I/71f8gPmFCdL._SL1500_.jpg",
   tags: ["post-travail", "jeu", "automatisation", "UBI", "sens du travail"],
-  note: "Texte obligatoire : plaidoyer pour une ‘vie ludique’ quand l’automatisation réduit l’emploi — arguments normatifs et réponses aux critiques."
+  note: "Article sur la notion de travail et plaidoyer pour une ‘vie ludique’ quand l’automatisation réduit l’emploi — arguments normatifs et réponses aux critiques."
 },
 {
   id: "jeu_daybreak_climat_cooperatif",
