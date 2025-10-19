@@ -218,6 +218,21 @@ window.resources = [
 },
 
 
+{
+  id: "jeu_hegemony_lead_your_class",
+  type: "Jeu",
+  title: "Hegemony: Lead Your Class to Victory",
+  creator: "Hegemonic Project Games (V. Bagiartakis, et al.)",
+  theme: "Économie politique, Classes sociales & Institutions",
+  course: "RCE",
+  session: "Séance 5 — Marx & Bourdieu",
+  url: "https://hegemonicproject.com/games/strategy/hegemony/",
+  thumbnail: "https://cf.geekdo-images.com/DCLgJlrvB-EqL6A3WgQLMQ__imagepage/img/TPrT8nP5BQ-wEEiknfXh0a9b0PE=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5715770.jpg",
+  tags: ["jeu asymétrique", "classes sociales", "politique publique", "syndicats", "entreprises", "État"],
+  note: "Jeu politico-économique asymétrique (2–4) où l’on incarne une classe (Travailleurs, Classe moyenne, Capitalistes) ou l’État. Excellent support pour discuter réformes, grèves, fiscalité et hégémonie (inclut un ‘Guide for Classroom Use’)."
+},
+
+
   /* Séance 6 — Coase & Hayek */
   {
     id: "coase-nature-of-the-firm",
@@ -534,24 +549,56 @@ window.resources = [
 
   {
     id: "fourcade-cents-sensibility-2011",
-    type: "Article",
+    type: "Texte obligatoire",
     title: "Cents and Sensibility: Economic Valuation and the Nature of “Nature”",
     creator: "Marion Fourcade",
-    theme: "Républicanisme & élites",
+    theme: "Valorisation de la nature",
     course: "RCE",
     session: "Séance 11 — Avenir du capitalisme",
     url: "https://www.journals.uchicago.edu/doi/10.1086/659640",
     thumbnail: "https://www.hiig.de/wp-content/uploads/2018/03/MG_2392.jpg",
     tags: ["valorisation de la nature", "environnement"],
     note: "Un article intéressant qui présente les problèmes que présentent la question de la valorisation de la nature."
-  }
+  },
 
-
-
-
-
-
-
-
+{
+  id: "livre_rosa_acceleration_2010",
+  type: "Livre",
+  title: "Accélération. Une critique sociale du temps",
+  creator: "Hartmut Rosa",
+  theme: "Temps social, Modernité & Écologie",
+  course: "RCE",
+  session: "Séance 11 — Avenir du capitalisme",
+  url: "https://www.editionsladecouverte.fr/acceleration-9782707154828",
+  thumbnail: "https://tse4.mm.bing.net/th/id/OIP.HpEAIHHBEe7rSHuxuI4AdQHaMK?cb=12&pid=Api",
+  tags: ["accélération", "aliénation temporelle", "modernité", "écologie"],
+  note: "Ouvrage-clé : relie accélération technique, sociale et du rythme de vie — utile pour articuler crise écologique, stress social et politiques du temps."
+},
+{
+  id: "chapitre_danaher_post_work_ludic_life_2019",
+    type: "Texte obligatoire",
+  title: "In Defense of the Post-Work Future: Withdrawal and the Ludic Life",
+  creator: "John Danaher",
+  theme: "Post-travail, Technologie & Sens",
+  course: "RCE",
+  session: "Séance 11 — Avenir du capitalisme",
+  url: "https://philarchive.org/rec/DANIDO-8",
+  thumbnail: "https://m.media-amazon.com/images/I/71f8gPmFCdL._SL1500_.jpg",
+  tags: ["post-travail", "jeu", "automatisation", "UBI", "sens du travail"],
+  note: "Texte obligatoire : plaidoyer pour une ‘vie ludique’ quand l’automatisation réduit l’emploi — arguments normatifs et réponses aux critiques."
+},
+{
+  id: "jeu_daybreak_climat_cooperatif",
+  type: "Jeu",
+  title: "Daybreak",
+  creator: "Matt Leacock & Matteo Menapace (CMYK)",
+  theme: "Climat, Décarbonation & Coopération",
+  course: "RCE",
+  session: "Séance 11 — Avenir du capitalisme",
+  url: "https://boardgamegeek.com/boardgame/334986/daybreak",
+  thumbnail: "https://cf.geekdo-images.com/YU8rm_FMnKHS2GPDFvLb6g__imagepage/img/Uw0tErq-thA_BO2H2vW9ETb5u2Q=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7068528.png",
+  tags: ["jeu coopératif", "climat", "politiques publiques", "technologies propres", "résilience"],
+  note: "Coop (1–4) sur la stabilisation climatique : chaque joueur dirige une grande région et déploie politiques/technos pour rester < 2 °C. Vision volontairement optimiste et documentée, utile pour traiter imagination politique et contraintes systémiques."
+},
 
 ];
