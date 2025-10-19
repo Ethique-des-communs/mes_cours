@@ -170,7 +170,19 @@ window.resources = [
   note: "Conférence fondatrice distinguant liberté ‘négative’ (non-ingérence) et ‘positive’ — utile pour articuler libéralisme politique et risques."
 },
 
-
+  {
+    id: "philoxime-egalite-chances",
+    type: "Vidéo",
+    title: "L'égalité des chances, une idée radicale ? - Égalitarisme de la chance (TJ #5)",
+    creator: "Philoxime / Maxime Lambrecht",
+    theme: "Justice & gouvernance",
+    course: "ETHI",
+    session: "Séance 4 — Adam Smith & Fleischacker",
+    url: "https://www.youtube.com/watch?v=Eq41Uw_W4NA",
+    thumbnail: "https://i.ytimg.com/vi/Eq41Uw_W4NA/hqdefault.jpg",
+    tags: ["égalité", "responsabilité"],
+    note: "Qui est responsable de quoi dans des organisations ? Une entrée par la justice."
+  },
 
 
   /* Séance 5 — Marx & Bourdieu */
@@ -299,6 +311,32 @@ window.resources = [
   tags: ["jeu asymétrique", "classes sociales", "politique publique", "syndicats", "entreprises", "État"],
   note: "Jeu politico-économique asymétrique (2–4) où l’on incarne une classe (Travailleurs, Classe moyenne, Capitalistes) ou l’État. Excellent support pour discuter réformes, grèves, fiscalité et hégémonie (inclut un ‘Guide for Classroom Use’)."
 },
+{
+    id: "philoxime-cohen",
+    type: "Vidéo",
+    title: "Le socialisme utopique n'est pas mort: G. A. Cohen",
+    creator: "Philoxime / Maxime Lambrecht",
+    theme: "Justice & gouvernance",
+    course: "ETHI",
+    session: "Séance 5 — Marx & Bourdieu",
+    url: "https://www.youtube.com/watch?v=v706YV563aw",
+    thumbnail: "https://i.ytimg.com/vi/v706YV563aw/hqdefault.jpg",
+    tags: ["Cohen", "égalité"],
+    note: "Quelle gouvernance pour minimiser l’arbitraire et la domination ?"
+  },
+  {
+    id: "philoxime-marxisme",
+    type: "Vidéo",
+    title: "Le Marxisme comme théorie de la justice ? (TJ #3)",
+    creator: "Philoxime / Maxime Lambrecht",
+    theme: "Justice & gouvernance",
+    course: "ETHI",
+    session: "Séance 5 — Marx & Bourdieu",
+    url: "https://www.youtube.com/watch?v=m4A5mF-KPxo",
+    thumbnail: "https://i.ytimg.com/vi/m4A5mF-KPxo/hqdefault.jpg",
+    tags: ["marxisme", "inégalités"],
+    note: "Un angle utile pour penser pouvoir, rente et exploitation dans l’entreprise."
+  },
 
 
   /* Séance 6 — Coase & Hayek */
@@ -560,6 +598,19 @@ window.resources = [
   tags: ["Rawls", "propriété dispersée", "capital citoyen", "travail & pouvoir"],
   note: "Panorama des dispositifs institutionnels pour diffuser la propriété productive. Suite de Hsieh et utile en contraste à l’UBI et des réformes du marché du travail."
 },
+{
+    id: "philoxime-rawls",
+    type: "Vidéo",
+    title: "Le libéralisme égalitaire de John Rawls (TJ #4.1)",
+    creator: "Philoxime / Maxime Lambrecht",
+    theme: "Justice & gouvernance",
+    course: "ETHI",
+    session: "Séance 9 — Durkheim & Hsieh",
+    url: "https://www.youtube.com/watch?v=2w-AEMAU_EE",
+    thumbnail: "https://i.ytimg.com/vi/2w-AEMAU_EE/hqdefault.jpg",
+    tags: ["Rawls", "équité"],
+    note: "Un cadre pour discuter équité, procédures et structures de décision."
+  },
 
   /* Séance 10 — Machiavel & Tullock  */
   {
