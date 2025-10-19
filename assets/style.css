@@ -1,25 +1,35 @@
 /* ===== Thème & variables ===== */
 :root{
+  /* let UA adjust form controls for both schemes */
+  color-scheme: light dark;
+  /* propagate accent to native widgets */
+  accent-color: var(--accent);
   /* Palette claire (fallback si le système est en clair) */
   --bg:#ffffff;
   --fg:#121418;
   --muted:#5f6b7a;
   --accent:#67d39d;               /* couleur d'accent commune */
-  --accent-weak:#2ca56c;           /* accent + foncé (hover) */
+  --accent-weak:#2ca56c;          /* accent + foncé (hover) */
   --link:var(--accent);
   --border:#e6e8ee;
   --card:#f8f9fb;
   --card-2:#f1f3f7;
   --shadow: 0 1px 2px rgba(0,0,0,.06), 0 6px 20px rgba(0,0,0,.03);
   --focus: 0 0 0 3px rgba(103,211,157,.35);
+
+  /* Teintes par type (rgb) — utilisées pour le liseré, badges et effets */
+  --type-livre-rgb:            186, 118, 255; /* violet doux */
+  --type-vidéo-rgb:             82, 156, 255; /* bleu-cyan */
+  --type-article-rgb:          255, 170,  76; /* orange doux */
+  --type-texte-obligatoire-rgb:255, 109, 109; /* rouge doux (plus affirmé) */
 }
 @media (prefers-color-scheme: dark){
   :root{
-    /* Palette sombre (par défaut sur la plupart des systèmes) */
+    /* Palette sombre (par défaut) */
     --bg:#0e1015;
     --fg:#e9ecf2;
     --muted:#9aa4b2;
-    --accent:#67d39d;              /* garde la même teinte pour cohérence */
+    --accent:#67d39d;
     --accent-weak:#41b27d;
     --link:var(--accent);
     --border:#24262d;
@@ -27,6 +37,12 @@
     --card-2:#171b28;
     --shadow: 0 1px 2px rgba(0,0,0,.35), 0 8px 26px rgba(0,0,0,.25);
     --focus: 0 0 0 3px rgba(103,211,157,.28);
+
+    /* mêmes teintes en sombre (elles ressortent bien) */
+    --type-livre-rgb:            186, 118, 255;
+    --type-vidéo-rgb:             82, 156, 255;
+    --type-article-rgb:          255, 170,  76;
+    --type-texte-obligatoire-rgb:255, 109, 109;
   }
 }
 
@@ -40,6 +56,10 @@ html,body{
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
 }
+.visually-hidden{ position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0; }
+[hidden]{ display:none !important; }
+/* make non-thumb media responsive by default */
+img:not(.thumb), svg, video{ max-width:100%; height:auto; }
 .wrap{ max-width:1100px; margin:0 auto; padding:22px; }
 header{ display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; }
 h1{ margin:.2rem 0 .5rem; font-size:clamp(1.4rem,2vw + 1rem,2.1rem); }
@@ -55,6 +75,8 @@ a{
 }
 a:hover{ color:var(--accent-weak); }
 a:focus-visible{ outline: none; box-shadow: var(--focus); border-radius:6px; }
+/* Consistent focus ring for interactive elements */
+:where(a,button,[role="button"],input,select,textarea):focus-visible{ outline:none; box-shadow:var(--focus); border-radius:6px; }
 
 /* ===== Contrôles ===== */
 .controls{ display:flex; gap:10px; flex-wrap:wrap; }
@@ -64,6 +86,7 @@ a:focus-visible{ outline: none; box-shadow: var(--focus); border-radius:6px; }
   color:var(--fg);
   padding:.5rem .6rem;
   border-radius:.6rem;
+  transition: box-shadow .15s ease, border-color .15s ease, background-color .15s ease;
 }
 
 /* ===== Grille de cartes ===== */
@@ -73,11 +96,10 @@ a:focus-visible{ outline: none; box-shadow: var(--focus); border-radius:6px; }
   gap:16px;
   margin-top:16px;
 }
-@media (max-width:980px){ .grid{ grid-template-columns:repeat(2,1fr); } }
-@media (max-width:680px){ .grid{ grid-template-columns:1fr; } }
 
 /* ===== Cartes (articles) ===== */
 .card{
+  position:relative;
   border:1px solid var(--border);
   border-radius:14px;
   overflow:hidden;
@@ -86,6 +108,16 @@ a:focus-visible{ outline: none; box-shadow: var(--focus); border-radius:6px; }
   flex-direction:column;
   box-shadow: var(--shadow);
 }
+
+/* Liseré supérieur teinté par type (via --tint) */
+.card::before{
+  content:"";
+  position:relative;
+  display:block;
+  height:4px;
+  background: var(--tint, transparent);
+}
+
 .thumb{
   aspect-ratio: 16 / 9;
   width: 100%;
@@ -122,7 +154,7 @@ a:focus-visible{ outline: none; box-shadow: var(--focus); border-radius:6px; }
   text-decoration:none;
   text-align:center;
 }
-.btn:hover{ background:rgba(255,255,255,.06); }
+.btn:hover{ background:var(--card-2); }
 .btn:focus-visible{ outline:none; box-shadow:var(--focus); }
 
 .groupTitle{
@@ -185,15 +217,106 @@ a.card:hover{ filter:brightness(1.02); }
 .body li a:hover{ color:var(--accent-weak); }
 
 /* Champs de recherche et selects : focus accessible */
-input[type="text"], select{
+input[type="text"], input[type="search"], select{
   outline:none;
 }
-input[type="text"]:focus-visible, select:focus-visible{
+input[type="text"]:focus-visible, input[type="search"]:focus-visible, select:focus-visible{
   box-shadow: var(--focus);
   border-color: transparent;
 }
+/* Placeholder plus lisible mais discret */
+.controls ::placeholder{ color:var(--muted); opacity:.8; }
 
 /* Petits utilitaires */
 .hr{ height:1px; background:var(--border); border:0; margin:12px 0; }
 .small{ font-size:.9rem; }
 .center{ text-align:center; }
+
+/* ======= Couleurs par TYPE (via [data-type]) =======
+   NOTE: ton JS fait data-type = it.type.toLowerCase() avec accents conservés.
+   On cible donc: [data-type="livre"], [data-type="vidéo"], [data-type="article"], [data-type="texte-obligatoire"].
+*/
+
+/* par défaut, si aucun type, rien ne change */
+
+/* LIVRE */
+.card[data-type="livre"]{
+  --tint: rgb(var(--type-livre-rgb));
+}
+.card[data-type="livre"] .badges .badge:first-child{
+  background: rgba(var(--type-livre-rgb), .18);
+  border-color: rgba(var(--type-livre-rgb), .40);
+}
+
+/* VIDÉO */
+.card[data-type="vidéo"]{
+  --tint: rgb(var(--type-vidéo-rgb));
+}
+.card[data-type="vidéo"] .badges .badge:first-child{
+  background: rgba(var(--type-vidéo-rgb), .18);
+  border-color: rgba(var(--type-vidéo-rgb), .40);
+}
+
+/* ARTICLE */
+.card[data-type="article"]{
+  --tint: rgb(var(--type-article-rgb));
+}
+.card[data-type="article"] .badges .badge:first-child{
+  background: rgba(var(--type-article-rgb), .18);
+  border-color: rgba(var(--type-article-rgb), .40);
+}
+
+
+/* Jeu */
+.card[data-type="jeu"]{
+  --tint: rgb(var(--type-livre-rgb));
+}
+.card[data-type="jeu"] .badges .badge:first-child{
+  background: rgba(var(--type-livre-rgb), .18);
+  border-color: rgba(var(--type-livre-rgb), .40);
+}
+
+
+/* TEXTE OBLIGATOIRE — plus distinct, mais dans le style */
+.card[data-type="texte-obligatoire"]{
+  --tint: rgb(var(--type-texte-obligatoire-rgb));
+  /* fond légèrement teinté pour se détacher */
+  background:
+    linear-gradient(
+      0deg,
+      rgba(var(--type-texte-obligatoire-rgb), .06),
+      rgba(var(--type-texte-obligatoire-rgb), .06)
+    ),
+    var(--card);
+  border-color: rgba(var(--type-texte-obligatoire-rgb), .35);
+  box-shadow: var(--shadow);
+}
+.card[data-type="texte-obligatoire"] .badges .badge:first-child{
+  background: rgba(var(--type-texte-obligatoire-rgb), .22);
+  border-color: rgba(var(--type-texte-obligatoire-rgb), .55);
+}
+
+
+
+
+
+/* (Optionnel) un léger feedback au survol basé sur la teinte */
+.card[data-type]:hover{
+  box-shadow: var(--shadow), 0 0 0 7px rgba(var(--type-hover-rgb, 0,0,0), .20);
+}
+.card[data-type="livre"]{ --type-hover-rgb: var(--type-livre-rgb); }
+.card[data-type="vidéo"]{ --type-hover-rgb: var(--type-vidéo-rgb); }
+.card[data-type="article"]{ --type-hover-rgb: var(--type-article-rgb); }
+.card[data-type="texte-obligatoire"]{ --type-hover-rgb: var(--type-texte-obligatoire-rgb); }
+.card[data-type="cas"]{ --type-hover-rgb: var(--type-livre-rgb); }
+.card[data-type="jeu"]{ --type-hover-rgb: var(--type-livre-rgb); }
+/* Reduce motion for users who request it */
+@media (prefers-reduced-motion: reduce){
+  *{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
+}
+
+/* Disable hover-only effects on touch devices */
+@media (hover: none){
+  .badge[role="button"]:hover, button.badge:hover{ filter:none; }
+  .btn:hover{ background:transparent; }
+}

@@ -3,7 +3,7 @@ window.resources = [
   
 {
   id: "cas_ethique_trois_enfants",
-  type: "cas",
+  type: "Cas",
   course: "RCE",
   session: "Séance 1 — Introduction générale",
 },
@@ -12,7 +12,7 @@ window.resources = [
   /* Séance 2 — Séance 2 — North & Landes */
   {
     id: "north-institutions-1990",
-    type: "Livre",
+    type: "Texte obligatoire",
     title: "Institutions, Institutional Change and Economic Performance",
     creator: "Douglass C. North",
     theme: "Institutions & développement",
@@ -24,7 +24,7 @@ window.resources = [
   },
   {
     id: "landes-wealth-poverty-1998",
-    type: "Livre",
+    type: "Texte obligatoire",
     title: "The Wealth and Poverty of Nations",
     creator: "David S. Landes",
     theme: "Institutions & développement",
@@ -50,7 +50,7 @@ window.resources = [
   /* Séance 3 — Séance 3 — Polanyi & Graeber  */
   {
     id: "polanyi-great-transformation-1944",
-    type: "Livre",
+    type: "Texte obligatoire",
     title: "La Grande Transformation",
     creator: "Karl Polanyi",
     theme: "Marché & société",
@@ -62,7 +62,7 @@ window.resources = [
   },
   {
     id: "graeber-dawn-of-everything-2021",
-    type: "Livre",
+    type: "Texte obligatoire",
     title: "The Dawn of Everything",
     creator: "David Graeber & David Wengrow",
     theme: "Anthropologie & institutions",
@@ -93,7 +93,7 @@ window.resources = [
   /* Séance 4 — Adam Smith & Fleischacker */
   {
     id: "adam-smith-wealth-of-nations",
-    type: "Livre",
+    type: "Texte obligatoire",
     title: "Recherches sur la nature et les causes de la richesse des nations",
     creator: "Adam Smith",
     theme: "Classiques",
@@ -108,7 +108,7 @@ window.resources = [
   /* Séance 5 — Marx & Bourdieu */
   {
     id: "marx-manifeste_communiste",
-    type: "Livre",
+    type: "Texte obligatoire",
     title: "Manifeste du parti communiste",
     creator: "Karl Marx",
     theme: "Critique & capitalisme",
@@ -149,7 +149,7 @@ window.resources = [
 
   {
     id: "bourdieu-distinction-1994",
-    type: "Livre",
+    type: "Texte obligatoire",
     title: "Le nouveau Capital, dans Raisons Pratiques",
     creator: "Pierre Bourdieu",
     theme: "Sociologie & inégalités",
@@ -221,7 +221,7 @@ window.resources = [
   /* Séance 6 — Coase & Hayek */
   {
     id: "coase-nature-of-the-firm",
-    type: "Livre",
+    type: "Texte obligatoire",
     title: "La nature de la firme",
     creator: "Ronald H. Coase",
     theme: "Coûts de transaction",
@@ -246,7 +246,7 @@ window.resources = [
 
   {
     id: "hayek-utilisation-information-societe",
-    type: "Livre",
+    type: "Texte obligatoire",
     title: "L'Utilisation de la connaissance dans la société",
     creator: "F. A. Hayek",
     theme: "Ordre spontané & liberté",
@@ -288,7 +288,7 @@ window.resources = [
   /* Séance 7 — Weber & Foucault  */
   {
     id: "weber-economy-and-society",
-    type: "Livre",
+    type: "Texte obligatoire",
     title: "Economie et société",
     creator: "Max Weber",
     theme: "Bureaucratie & domination",
@@ -326,7 +326,7 @@ window.resources = [
   /* Séance 8 — Mancur Olson & Hirschman */
   {
     id: "olson-logic-of-collective-action-1965",
-    type: "Livre",
+    type: "Texte obligatoire",
     title: "The Logic of Collective Action",
     creator: "Mancur Olson",
     theme: "Action collective",
@@ -381,7 +381,7 @@ window.resources = [
   /* Séance 9 — Durkheim & Hsieh */
   {
     id: "durkheim-division-travail-1893",
-    type: "Livre",
+    type: "Texte obligatoire",
     title: "De la division du travail social",
     creator: "Émile Durkheim",
     theme: "Solidarité & société",
@@ -392,11 +392,81 @@ window.resources = [
     tags: ["solidarité organique", "normes"]
   },
 
+  {
+  id: "livre_case_deaton_deaths_of_despair_2020",
+  type: "Livre",
+  title: "Deaths of Despair and the Future of Capitalism",
+  creator: "Anne Case & Angus Deaton",
+  theme: "Inégalités, Santé publique & Cohésion sociale",
+  course: "RCE",
+  session: "Séance 9 — Durkheim & Hsieh",
+  url: "https://deathsofdespair.princeton.edu/front",
+  thumbnail: "https://books.google.com/books/content?id=anK0DwAAQBAJ&printsec=frontcover&img=1&zoom=1",
+  tags: ["Durkheim", "suicide", "santé", "inégalités", "travail", "États-Unis"],
+  note: "Ouvrage de référence (Princeton UP) sur les « morts de désespoir » (suicide, drogues, alcool) et la dégradation des conditions de vie. Les auteurs mobilisent une lecture durkheimienne de la cohésion sociale."
+},
+
+{
+  id: "livre_anderson_private_government_2017",
+  type: "Livre",
+  title: "Private Government: How Employers Rule Our Lives (and Why We Don’t Talk About It)",
+  creator: "Elizabeth Anderson",
+  theme: "Travail, Gouvernance & Justice au travail",
+  course: "RCE",
+  session: "Séance 9 — Durkheim & Hsieh",
+  url: "https://press.princeton.edu/books/hardcover/9780691176512/private-government",
+  thumbnail: "https://books.google.com/books/content?id=hXSYDwAAQBAJ&printsec=frontcover&img=1&zoom=1",
+  tags: ["gouvernement privé", "autorité au travail", "égalité", "républicanisme", "démocratie au travail"],
+  note: "Ouvrage-synthèse (Tanner Lectures) arguant que l’entreprise moderne exerce un « gouvernement privé » souvent autoritaire — excellente base pour relier justice au travail, dignité et démocratie économique."
+},
+
+{
+  id: "video_van_parijs_revenu_de_base_7RUlmxqasxI",
+  type: "Vidéo",
+  title: "Philippe Van Parijs — Le revenu de base inconditionnel (présentation d’ouvrage)",
+  creator: "Éditions La Découverte / Philippe Van Parijs",
+  theme: "Revenu de base & Justice distributive",
+  course: "RCE",
+  session: "Séance 9 — Durkheim & Hsieh",
+  url: "https://www.youtube.com/watch?v=7RUlmxqasxI",
+  thumbnail: "https://i.ytimg.com/vi/7RUlmxqasxI/hqdefault.jpg",
+  tags: ["UBI", "solidarité", "état social", "Van Parijs"],
+  note: "Mise en perspective philosophique du revenu de base par l’un de ses principaux théoriciens."
+},
+
+
+{
+  id: "article_hsieh_justice_at_work_2009",
+  type: "Texte obligatoire",
+  title: "Justice at Work: Arguing for Property-Owning Democracy",
+  creator: "Nien-hê Hsieh",
+  theme: "Justice au travail, Égalité & Institutions",
+  course: "RCE",
+  session: "Séance 9 — Durkheim & Hsieh",
+  url: "https://www-users.york.ac.uk/~mpon500/pod/Hsieh.pdf",
+  thumbnail: "https://www.hbs.edu/favicon.ico",
+  tags: ["justice au travail", "propriété dispersée", "institutions", "république des égaux"],
+  note: "Article fondateur reliant justice au travail et « property-owning democracy ». Il présente un cadre structurel complémentaire à l’UBI pour dignité et autonomie."
+},
+
+{
+  id: "livre_property_owning_democracy_2012",
+  type: "Livre",
+  title: "Property-Owning Democracy: Rawls and Beyond",
+  creator: "Martin O’Neill & Thad Williamson (dir.)",
+  theme: "Institutions, Répartition du capital & Démocratie économique",
+  course: "RCE",
+  session: "Séance 9 — Durkheim & Hsieh",
+  url: "https://onlinelibrary.wiley.com/doi/book/10.1002/9781444355192",
+  thumbnail: "https://onlinelibrary.wiley.com/pb-assets/hub-assets/wiley-logo-1631034579807.svg",
+  tags: ["Rawls", "propriété dispersée", "capital citoyen", "travail & pouvoir"],
+  note: "Panorama des dispositifs institutionnels pour diffuser la propriété productive. Suite de Hsieh et utile en contraste à l’UBI et des réformes du marché du travail."
+},
 
   /* Séance 10 — Machiavel & Tullock  */
   {
     id: "machiavelli-prince",
-    type: "Livre",
+    type: "Texte obligatoire",
     title: "Il Principe (Le Prince)",
     creator: "Niccolò Machiavelli",
     theme: "Pouvoir & stratégie",
@@ -432,6 +502,33 @@ window.resources = [
     tags: ["république", "élites", "institutionnel"],
     note: "Un livre que j'ai adoré sur Machiavel et son amour très moderne pour la démocratie."
   },
+
+  {
+  id: "article_tullock_people_are_people_public_choice",
+    type: "Texte obligatoire",
+  title: "People Are People: The Elements of Public Choice",
+  creator: "Gordon Tullock",
+  theme: "Choix public, Incitations & Institutions",
+  course: "RCE",
+  session: "Séance 10 — Machiavel & Tullock",
+  url: "https://lyd.org/wp-content/uploads/2012/04/People-are-People.pdf",
+  thumbnail: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Gordon_tullock.jpg",
+  tags: ["public choice", "rationalité", "incitations", "bureaucratie", "économie politique"],
+  note: "Texte de synthèse de Tullock : poser l’hypothèse que « les gens restent des gens » en politique comme sur les marchés, et en déduire une analyse des comportements publics."
+},
+{
+  id: "article_munger_road_to_crony_capitalism_2019",
+  type: "Article",
+  title: "The Road to Crony Capitalism",
+  creator: "Michael C. Munger & Mario Villarreal-Diaz",
+  theme: "Rent-seeking, Cronyisme & Régulation",
+  course: "RCE",
+  session: "Séance 10 — Machiavel & Tullock",
+  url: "https://www.independent.org/pdf/tir/tir_23_3_02_munger.pdf",
+  thumbnail: "https://s2.studylib.net/store/data/026975771_1-6338bbfa85875a16aeab00bfb0e48e3c-768x994.png",
+  tags: ["crony capitalism", "rent-seeking", "État", "marchés politiques"],
+  note: "Texte amusant qui explore la tendance structurelle du capitalisme à sombrer dans la corruption (le capitalisme de connivence) et les remèdes institutionnels (contraintes sur la vente de rentes, entrepreneuriat non-rentier)."
+},
 
   /* Séance 11 — Avenir du capitalisme  */
 
