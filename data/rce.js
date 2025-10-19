@@ -104,6 +104,74 @@ window.resources = [
     tags: ["marché", "division du travail"]
   },
 
+{
+  id: "livre_audard_quest_ce_que_le_liberalisme_2009",
+  type: "Livre",
+  title: "Qu’est-ce que le libéralisme ? Éthique, politique, société",
+  creator: "Catherine Audard",
+  theme: "Libéralisme — Éthique, Politique & Société",
+  course: "RCE",
+  session: "Séance 4 — Adam Smith & Fleischacker",
+  url: "https://www.folio-lesite.fr/catalogue/qu-est-ce-que-le-liberalisme/9782070349739",
+  thumbnail: "https://www.picclickimg.com/Ej8AAOSwJzpg2eHe/Quest-Ce-Que-Le-Lib%C3%A9ralisme-Par-Catherine-Audard.webp",
+  tags: ["libéralisme", "Rawls", "égalité", "justice", "histoire des idées"],
+  note: "Exposé de référence en français : généalogie, tensions internes (marché/égalité), et mise en perspective avec Rawls et la tradition libérale."
+},
+{
+  id: "livre_skinner_liberty_before_liberalism_1998",
+  type: "Livre",
+  title: "Liberty Before Liberalism",
+  creator: "Quentin Skinner",
+  theme: "Républicanisme — Liberté comme non-domination",
+  course: "RCE",
+  session: "Séance 4 — Adam Smith & Fleischacker",
+  url: "https://www.cambridge.org/core/books/liberty-before-liberalism/87A2E8AF1A5E1BA35FA8ED5D2AF0FED1",
+  thumbnail: "https://assets.cambridge.org/97805216/38760/cover/9780521638760.jpg",
+  tags: ["républicanisme", "liberté", "non-domination", "histoire des idées"],
+  note: "Essai clé qui exhume la liberté néo-romaine (non-domination) — utile pour contraster avec la liberté libérale (non-ingérence)."
+},
+{
+  id: "livre_pettit_republicanism_1997",
+  type: "Livre",
+  title: "Republicanism: A Theory of Freedom and Government",
+  creator: "Philip Pettit",
+  theme: "Républicanisme — Théorie de la liberté & des institutions",
+  course: "RCE",
+  session: "Séance 4 — Adam Smith & Fleischacker",
+  url: "https://academic.oup.com/book/3937",
+  thumbnail: "http://prodimage.images-bn.com/pimages/9780198296423_p0_v2_s1200x630.jpg",
+  tags: ["non-domination", "institutions", "démocratie", "libéralisme (critique)"],
+  note: "Systématisation contemporaine de la liberté comme non-domination : angle de comparaison rigoureux avec Smith/libéralisme."
+},
+{
+  id: "texte_constant_libertes_anciens_modernes_1819",
+  type: "Texte",
+  title: "De la liberté des Anciens comparée à celle des Modernes",
+  creator: "Benjamin Constant",
+  theme: "Libertés — Politique & Individuelle",
+  course: "RCE",
+  session: "Séance 4 — Adam Smith & Fleischacker",
+  url: "https://fr.wikipedia.org/wiki/De_la_libert%C3%A9_des_Anciens_compar%C3%A9e_%C3%A0_celle_des_Modernes",
+  thumbnail: "https://tse4.mm.bing.net/th/id/OIP.uy4VROn4d3hpnSLt90FaQgHaKl",
+  tags: ["liberté des Anciens", "liberté des Modernes", "représentation", "individu"],
+  note: "Texte classique français pour distinguer libertés politiques et individuelles — parfait pour cadrer la séance."
+},
+{
+  id: "article_berlin_two_concepts_of_liberty_1958",
+  type: "Article",
+  title: "Two Concepts of Liberty",
+  creator: "Isaiah Berlin",
+  theme: "Liberté positive vs liberté négative",
+  course: "RCE",
+  session: "Séance 4 — Adam Smith & Fleischacker",
+  url: "https://en.wikipedia.org/wiki/Two_Concepts_of_Liberty",
+  thumbnail: "https://tse2.mm.bing.net/th/id/OIP.WclbrFEhyojoLmC8l3Q8OQHaK5?cb=12&pid=Api&ucfimg=1",
+  tags: ["liberté", "pluralisme des valeurs", "libéralisme"],
+  note: "Conférence fondatrice distinguant liberté ‘négative’ (non-ingérence) et ‘positive’ — utile pour articuler libéralisme politique et risques."
+},
+
+
+
 
   /* Séance 5 — Marx & Bourdieu */
   {
@@ -472,8 +540,8 @@ window.resources = [
   theme: "Institutions, Répartition du capital & Démocratie économique",
   course: "RCE",
   session: "Séance 9 — Durkheim & Hsieh",
-  url: "https://onlinelibrary.wiley.com/doi/book/10.1002/9781444355192",
-  thumbnail: "https://onlinelibrary.wiley.com/pb-assets/hub-assets/wiley-logo-1631034579807.svg",
+  url: "https://www.wiley.com/en-us/Property-Owning+Democracy%3A+Rawls+and+Beyond-p-9781444334104",
+  thumbnail: "https://media.wiley.com/product_data/coverImage300/07/14443341/1444334107.jpg",
   tags: ["Rawls", "propriété dispersée", "capital citoyen", "travail & pouvoir"],
   note: "Panorama des dispositifs institutionnels pour diffuser la propriété productive. Suite de Hsieh et utile en contraste à l’UBI et des réformes du marché du travail."
 },
