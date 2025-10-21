@@ -277,6 +277,16 @@ input[type="text"]:focus-visible, input[type="search"]:focus-visible, select:foc
 }
 
 
+/* Image */
+.card[data-type="image"]{
+  --tint: rgb(var(--type-livre-rgb));
+}
+.card[data-type="image"] .badges .badge:first-child{
+  background: rgba(var(--type-livre-rgb), .18);
+  border-color: rgba(var(--type-livre-rgb), .40);
+}
+
+
 /* TEXTE OBLIGATOIRE — plus distinct, mais dans le style */
 .card[data-type="texte-obligatoire"]{
   --tint: rgb(var(--type-texte-obligatoire-rgb));
@@ -310,6 +320,7 @@ input[type="text"]:focus-visible, input[type="search"]:focus-visible, select:foc
 .card[data-type="texte-obligatoire"]{ --type-hover-rgb: var(--type-texte-obligatoire-rgb); }
 .card[data-type="cas"]{ --type-hover-rgb: var(--type-livre-rgb); }
 .card[data-type="jeu"]{ --type-hover-rgb: var(--type-livre-rgb); }
+.card[data-type="image"]{ --type-hover-rgb: var(--type-livre-rgb); }
 /* Reduce motion for users who request it */
 @media (prefers-reduced-motion: reduce){
   *{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }

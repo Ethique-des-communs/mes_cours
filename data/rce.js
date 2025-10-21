@@ -8,6 +8,20 @@ window.resources = [
   session: "Séance 1 — Introduction générale",
 },
 
+{
+  id: "image_timeline_intro_generale",
+  type: "Image",
+  title: "Timeline des textes — Introduction générale",
+  creator: "Prof",
+  theme: "Repères & Programme du cours",
+  course: "RCE",
+  session: "Séance 1 — Introduction générale",
+  url: "assets/Ligne du temps Auteurs RCE.png",
+  thumbnail: "assets/Ligne du temps Auteurs RCE.png",
+  tags: ["timeline", "programme", "aperçu", "références"],
+  note: "Ligne du temps pour situer les textes en contexte."
+},
+
 
   /* Séance 2 — Séance 2 — North & Landes */
   {
@@ -20,8 +34,8 @@ window.resources = [
     session: "Séance 2 — North & Landes",
     url: "https://openlibrary.org/isbn/9780521397346",
     thumbnail: "https://covers.openlibrary.org/b/isbn/9780521397346-L.jpg",
-    tags: ["institutions", "économie politique"]
-  },
+tags: ["institutions","développement","droits de propriété","coûts de transaction"]
+    },
   {
     id: "landes-wealth-poverty-1998",
     type: "Texte obligatoire",
@@ -145,7 +159,7 @@ window.resources = [
 },
 {
   id: "texte_constant_libertes_anciens_modernes_1819",
-  type: "Texte",
+  type: "Livre",
   title: "De la liberté des Anciens comparée à celle des Modernes",
   creator: "Benjamin Constant",
   theme: "Libertés — Politique & Individuelle",
@@ -267,7 +281,19 @@ window.resources = [
     tags: ["justice", "transmission"],
     note: "Un détour par l’héritage pour interroger équité et méritocratie."
   },
-
+{
+    id: "philoxime-milliardaires-heritage",
+    type: "Vidéo",
+    title: "Les milliardaires, compatibles avec la démocratie? (ft. @Osonscauser)",
+    creator: "Philoxime / Maxime Lambrecht",
+    theme: "Inégalités & pouvoir",
+    course: "RCE",
+    session: "Séance 5 — Marx & Bourdieu",
+    url: "https://www.youtube.com/watch?v=n-oujbO9fdQ",
+    thumbnail: "https://i.ytimg.com/vi/n-oujbO9fdQ/hqdefault.jpg",
+    tags: ["inégalités", "démocratie"],
+    note: "Pour discuter diversité/pouvoir et concentration des ressources dans les élites."
+  },
   {
     id: "video_stupid_economics_supression_heritage",
     type: "Livre",
@@ -281,7 +307,19 @@ window.resources = [
     tags: ["héritage", "inégalités", "stratification"],
     note: "Un vidéo intéressant sur l'importante question de l'héritage."
   },
-
+{
+    id: "video_stupid_economics_eic",
+    type: "Livre",
+    title: "East India Company : Hong-Kong et la Guerre de l'Opium",
+    creator: "Stupid Economics",
+    theme: "Économie & Capitalisme",
+    course: "RCE",
+    session: "Séance 5 — Marx & Bourdieu",
+    url: "https://www.youtube.com/watch?v=sS4XuwI11GM",
+    thumbnail: "https://i.ytimg.com/vi/sS4XuwI11GM/hqdefault.jpg",
+    tags: ["histoire du capitalisme", "histoire des entreprises", "capitalisme"],
+    note: "Un vidéo intéressant et fascinant sur la compagnie des Indes et le capitalisme."
+  },
 
 {
   id: "jeu_john_company_wehrle_2e",
