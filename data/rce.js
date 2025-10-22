@@ -548,7 +548,19 @@ tags: ["institutions","développement","droits de propriété","coûts de transa
   tags: ["démocratie", "pouvoir", "capture de l’État", "contre-pouvoirs", "public choice (critique)", "réalisme critique", "Machiavel"],
   note: "Excellent ouvrage qui propose une théorie machiavélienne et réaliste de la démocratie : au-delà des réformes procédurales, il insiste sur la dispersion du pouvoir et l’organisation de contre-pouvoirs pour résister à la capture par les élites."
 },
-
+{
+  id: "livre_guinan_oneill_case_for_community_wealth_building_2019",
+  type: "Livre",
+  title: "The Case for Community Wealth Building",
+  creator: "Joe Guinan & Martin O’Neill",
+  theme: "Économie démocratique, Institutions locales & Contre-pouvoirs",
+  course: "RCE",
+  session: "Séance 8 — Olson & Hirschman",
+  url: "https://www.politybooks.com/bookdetail/?isbn=9781509539024",
+  thumbnail: "https://cdn11.bigcommerce.com/s-ynb5hz/images/stencil/1280x1280/products/1389/4752/9781509539031__08281.1619895344.jpg?c=2",
+  tags: ["community wealth building", "ancrage local", "coops", "banques publiques", "foncières communautaires", "anticronyisme"],
+  note: "Manifeste court et rigoureux (Polity, 2019/2020) défendant une stratégie d’« enracination » de la richesse via institutions locales (coops, obnl, ‘anchor institutions’). Utile pour penser l’action collective et les contre-pouvoirs à la capture."
+},
 
 
 
@@ -663,6 +675,20 @@ tags: ["institutions","développement","droits de propriété","coûts de transa
     thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Machiavelli_Principe_Cover_Page.jpg/250px-Machiavelli_Principe_Cover_Page.jpg",
     tags: ["pouvoir", "stratégie", "réalisme"]
   },
+
+  {
+  id: "livre_skinner_machiavel_points",
+  type: "Livre",
+  title: "Machiavel",
+  creator: "Quentin Skinner",
+  theme: "Histoire de la philosophie politique",
+  course: "RCE",
+  session: "Séance 10 — Machiavel & Tullock",
+  url: "https://www.points.fr/livre/?GCOI=27574100275580",
+  thumbnail: "https://tse4.mm.bing.net/th/id/OIP.5G2nhGEym5fTfWUyFm5i1QAAAA?pid=Api",
+  tags: ["Machiavel", "philosophie politique", "république", "liberté", "non-domination"],
+  note: "Un des meilleurs livres que j’ai lus sur un philosophe. Clair, rigoureux, et profond ; il a influencé ma carrière de philosophe."
+},
 {
   id: "sur_le_champ_video_machiavel",
   type: "Vidéo",
@@ -674,7 +700,7 @@ tags: ["institutions","développement","droits de propriété","coûts de transa
   url: "https://www.youtube.com/watch?v=XXfl56nB0Us",
   thumbnail: "https://i.ytimg.com/vi/XXfl56nB0Us/hqdefault.jpg",
   tags: ["Pouvoir de l'argent", "Républicanisme"],
-  note: "Une bonne ressource pour comprendre que machiavel n'était pas simplement Machiavélien, mais étant un patriote florentin et un républicain."  // optionnel
+  note: "Une bonne ressource pour comprendre que machiavel n'était pas simplement Machiavélien, mais étant un patriote florentin et un républicain."  
 },
   {
     id: "mccormick-machiavellian-democracy-2011",
@@ -715,6 +741,32 @@ tags: ["institutions","développement","droits de propriété","coûts de transa
   thumbnail: "https://s2.studylib.net/store/data/026975771_1-6338bbfa85875a16aeab00bfb0e48e3c-768x994.png",
   tags: ["crony capitalism", "rent-seeking", "État", "marchés politiques"],
   note: "Texte amusant qui explore la tendance structurelle du capitalisme à sombrer dans la corruption (le capitalisme de connivence) et les remèdes institutionnels (contraintes sur la vente de rentes, entrepreneuriat non-rentier)."
+},
+{
+  id: "livre_benner_be_like_the_fox_2013",
+  type: "Livre",
+  title: "Be Like the Fox: Machiavelli’s Lifelong Quest for Freedom",
+  creator: "Erica Benner",
+  theme: "Machiavel, Liberté & Histoire de la pensée",
+  course: "RCE",
+  session: "Séance 10 — Machiavel & Tullock",
+  url: "https://www.princeton.edu/~eb/envision/book/Be_Like_the_Fox.html",
+  thumbnail: "https://machiavelli4everybody.com/wp-content/uploads/2023/04/Be-Like-the-Fox-Machiavelli-in-His-World.png",
+  tags: ["Machiavel", "liberté", "république florentine", "histoire de la pensée"],
+  note: "Biographie philosophique originale de Machiavel : rigoureuse, accessible, éclairante."
+},
+{
+  id: "livre_mccormick_reading_machiavelli_2008",
+  type: "Livre",
+  title: "Reading Machiavelli: An Introduction to the Political Thought of Machiavelli",
+  creator: "James McCormick",
+  theme: "Machiavel, Introduction & Analyse",
+  course: "RCE",
+  session: "Séance 10 — Machiavel & Tullock",
+  url: "https://www.wiley.com/en-us/Reading+Machiavelli%3A+An+Introduction+to+the+Political+Thought+of+Machiavelli-p-9780132340809",
+  thumbnail: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1613689750i/39204112.jpg",
+  tags: ["Machiavel", "introduction", "philosophie politique", "république"],
+  note: "Bonne introduction synthétique de cet auteur mal compris : structure claire (mais un peu trop érudite parfois), chapitres thématiques, accessible tout en sérieux."
 },
 
   /* Séance 11 — Avenir du capitalisme  */
