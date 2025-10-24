@@ -743,19 +743,6 @@ tags: ["institutions","développement","droits de propriété","coûts de transa
   note: "Texte amusant qui explore la tendance structurelle du capitalisme à sombrer dans la corruption (le capitalisme de connivence) et les remèdes institutionnels (contraintes sur la vente de rentes, entrepreneuriat non-rentier)."
 },
 {
-  id: "livre_benner_be_like_the_fox_2013",
-  type: "Livre",
-  title: "Be Like the Fox: Machiavelli’s Lifelong Quest for Freedom",
-  creator: "Erica Benner",
-  theme: "Machiavel, Liberté & Histoire de la pensée",
-  course: "RCE",
-  session: "Séance 10 — Machiavel & Tullock",
-  url: "https://www.princeton.edu/~eb/envision/book/Be_Like_the_Fox.html",
-  thumbnail: "https://machiavelli4everybody.com/wp-content/uploads/2023/04/Be-Like-the-Fox-Machiavelli-in-His-World.png",
-  tags: ["Machiavel", "liberté", "république florentine", "histoire de la pensée"],
-  note: "Biographie philosophique originale de Machiavel : rigoureuse, accessible, éclairante."
-},
-{
   id: "livre_mccormick_reading_machiavelli_2008",
   type: "Livre",
   title: "Reading Machiavelli: An Introduction to the Political Thought of Machiavelli",
